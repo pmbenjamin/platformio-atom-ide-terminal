@@ -1,0 +1,9 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.7.0
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  'npm:jquery:20150627':
+    - atom-space-pen-views > space-pen > jquery:
+        reason: None given
+        expires: '2017-03-26T19:20:30.827Z'
+patch: {}
